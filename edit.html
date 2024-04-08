@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Редактирование товара</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/logo/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="header__content container">
+        <div class="header__logo logo">
+            <a href="index.html"><img src="assets/logo/logo.svg" alt="" /></a>
+          
+        </div>
+        <a href="index.html">Выйти</a>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- edit -->
+    <div class="edit">
+      <div class="edit__content container py-page">
+        <div class="edit__img img">
+            <img src="assets/img/product.png" alt="">
+        </div>
+        <div class="edit__block">
+          <div class="edit__title">
+            <a href="admin.html">Вернуться</a>
+            <h2 class="edit__h2 edit__h2_pdbtm-40">Редактирование товара</h2>
+          </div>
+          <div class="form">
+            <form action="">
+                <label for="name">Название:</label>
+                <input type="text" name="name" value="Моторное масло Shell Helix Ultra">
+                <label for="article">Артикул:</label>
+                <input type="text" name="article" value="550046375">
+                <label for="cost">Цена:</label>
+                <input type="text" name="cost" value="3790">
+                <label for="description">Описание:</label>
+                <textarea name="description" id="" cols="30" rows="10">Новейшее высокотехнологичное полностью синтетическое моторное масло для самых современных двигателей, созданное на основе уникальной технологии Shell PurePlus. Защищает системы снижения токсичности выхлопа, позволяет сохранить чистоту поршня на уровне заводского конвейера, обеспечивает защиту от износа и дополнительную экономию топлива до 2,6%. Превосходит требования API SN в 4 раза, обеспечивает до 50% большую защиту от износа, чем требуется по спецификации ACEA C2/C3.</textarea>
+                <button class="form-button">Сохранить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- edit end -->
+  </body>
+</html>
